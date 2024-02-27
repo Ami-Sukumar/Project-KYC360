@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+ 
+ 
+ }
+ 
+ 
+ .logo {
+    position:fixed;
+    top: 0;
+    left:0;
+    margin:10px;
+ }
+ 
+ 
+ header{
+    background-image: url(" https://www.acuitykp.com/wp-content/uploads/2023/06/Blog_Landing-Page.jpg");
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 4em 6em 6em 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+   
+ }
+ 
+ 
+ 
+ 
+ button {
+    font-size: 8px;
+    padding: 10px 80px;
+    background-color: #c1fbd3; /* Change button background color */
+    color: rgb(0, 0, 0); /* Change button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 10px;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ button:hover {
+    background-color: #45a049; /* Darker color when hovering */
+ }
+ 
+ 
+ 
+ 
+ main{
+    background: rgb(255, 255, 255);
+    padding: 100px;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 10px;
+ 
+ 
+ }
+ 
+ 
+ .right{
+    background: rgb(255, 255, 255);
+    padding: 100px;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 10px;
+ 
+ 
+ }
+ 
+ 
+ .left{
+    background: rgb(255, 255, 255);
+    padding: 100px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+ 
+ 
+ }
+ 
+ 
+ footer{
+    background: rgb(255, 255, 255);
+    padding: 100px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+ 
+ }
+ 
+ 
+ main, .right, .left {
+    border-bottom: 2px solid #c1fbd3;
+  }
+ 
+ 
+  a {
+    text-decoration: none;
+ }
+ 
+ 
+ main button {
+    padding: 20px 200px;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+ }
+ 
+ 
+ .left button {
+    padding: 20px 200px;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+ }
+ 
+ 
+ .right button{
+    padding: 20px 200px;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+ }
+ 
+ 
+ footer {
+    background-image: url("https://c8.alamy.com/comp/RPM80J/blurred-business-people-meeting-in-office-interior-with-space-for-business-brainstorming-background-design-RPM80J.jpg");
+    background-position: center; /* Center the background image */
+ }
+ 
+ @media only screen and (max-width: 768px) {
+   header {
+       padding: 3em 2em; /* Adjust padding for smaller screens */
+       font-size: 20px; /* Adjust font size for smaller screens */
+   }
+
+   main, .right, .left, footer {
+       padding: 50px 20px; /* Adjust padding for smaller screens */
+   }
+
+   main button, .left button, .right button {
+       padding: 15px 100px; /* Adjust button padding for smaller screens */
+       font-size: 10px; /* Adjust button font size for smaller screens */
+   }
+
+   .logo {
+       margin: 10px auto; /* Center logo on smaller screens */
+   }
+
+   p {
+       font-size: 20px; /* Adjust paragraph font size for smaller screens */
+   }
+}
+
+
+/* Small screens */
+@media only screen and (max-width: 480px) {
+   header {
+       padding: 2em 1em;
+       font-size: 16px; 
+   }
+
+   main, .right, .left, footer {
+       padding: 30px 10px; /* Further adjust padding for smaller screens */
+   }
+
+   main button, .left button, .right button {
+       padding: 10px 50px; 
+       font-size: 8px; 
+   }
+
+   p {
+       font-size: 18px; 
+   }}
+
+  
