@@ -1,7 +1,12 @@
 # Project-KYC360
-<br>
-<p> This project is about KYC for B2B </p>
-SE_19,Hand-in 1/4 (HTML &amp; CSS)- Ami Sukumar
+Project Name : KYC360
 
-next
-next
+KYC360 is a platform where you can simplify KYC for financial services companies so you can focus on what truly matters – your business.
+
+Installation:
+
+1. Clone the repository to your local machine:
+
+Copy code:
+
+git clone https://github.com/Ami-Sukumar/KYC-Project.git
